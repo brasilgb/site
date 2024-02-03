@@ -1,1 +1,0 @@
-import{j as s}from"./app-Urf7islE.js";const e=({children:t})=>s.jsx("div",{className:"min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100",children:t}),o=e;export{o as A};

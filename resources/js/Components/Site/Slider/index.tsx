@@ -1,3 +1,4 @@
+import { Link } from '@inertiajs/react';
 import React, { useEffect, useState } from 'react';
 import {
   BsFillArrowLeftCircleFill,
@@ -66,9 +67,12 @@ const Slider = ({ slides }: any) => {
                 <p className="text-lg font-medium text-white uppercase">
                   {s.summary}
                 </p>
-                <button className="flex items-center justify-center rounded-md border border-white shadow-md mt-4 px-6 py-2 font-roboto font-medium text-base text-gray-50 transition-colors">
+                <Link 
+                href={route("slug", s.slug)}
+                className="flex items-center justify-center rounded-md border border-white shadow-md mt-4 px-6 py-2 font-roboto font-medium text-base text-gray-50 transition-colors"
+                >
                   Acessar
-                </button>
+                </Link>
               </>
             )
         )}

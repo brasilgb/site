@@ -1,0 +1,1 @@
+import{j as t}from"./app-waZe9uyu.js";import{G as r}from"./GuestLayout-FxWY6y3i.js";import"./ApplicationLogo-SfyOEA5m.js";import"./moment-WSJ9un1t.js";import"./index-WdWdT_HV.js";import"./index-g0p8o0B7.js";const u=({category:o})=>t.jsx(r,{children:"categories"});export{u as default};
