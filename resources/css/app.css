@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Roboto:wght@400;500;700;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-roboto antialiased;
+    }
+}
+
+@layer components {
+    .btn-login {
+        @apply flex items-center justify-center rounded-md shadow-md bg-gradient-to-b hover:bg-gradient-to-t from-red-dois to-red-um hover:bg-red-200 px-5 py-2 font-roboto font-medium text-base text-gray-50 transition-colors w-full;
+    }
+    .label-form {
+        @apply text-sm text-gray-500 font-semibold;
+    }
+    .input-form {
+        @apply rounded-md p-2 bg-transparent text-base text-gray-600 border border-gray-300;
+    }
+}
+
+.slick-slide > div {
+    margin: 0 10px;
+}
+.slick-prev:before,
+.slick-next:before {
+    color: rgb(71, 71, 71) !important;
+}
