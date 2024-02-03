@@ -27,7 +27,7 @@ const Dashboard = ({ categories, posts, pages, users }: any) => {
                         props={{
                             title: "Usuários",
                             value: users,
-                            url: "/users",
+                            url: "/admin/users",
                             icon: <IoPeople size={50} color="#2671e2" />,
                         }}
                     />
@@ -35,7 +35,7 @@ const Dashboard = ({ categories, posts, pages, users }: any) => {
                         props={{
                             title: "Categorias",
                             value: categories,
-                            url: "/categories",
+                            url: "/admin/categories",
                             icon: <IoList size={50} color="#CA0156" />,
                         }}
                     />
@@ -43,7 +43,7 @@ const Dashboard = ({ categories, posts, pages, users }: any) => {
                         props={{
                             title: "Postagens",
                             value: posts,
-                            url: "/postagens",
+                            url: "/admin/postagens",
                             icon: <IoDocumentTextSharp size={50} color="#EEA917" />,
                         }}
                     />
@@ -51,7 +51,7 @@ const Dashboard = ({ categories, posts, pages, users }: any) => {
                         props={{
                             title: "Páginas",
                             value: pages,
-                            url: "/paginas",
+                            url: "/admin/paginas",
                             icon: <IoDocumentSharp size={50} color="#0D9488" />,
                         }}
                     />

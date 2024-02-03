@@ -49,7 +49,7 @@ const editPage = ({ page }: any) => {
 
   function handleSubmit(e: any) {
     e.preventDefault();
-    router.post(`/pages/${page.id}`, {
+    router.post(`/admin/pages/${page.id}`, {
       _method: 'put',
       title: data.title,
       summary: data.summary,

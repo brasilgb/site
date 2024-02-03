@@ -72,7 +72,7 @@ const editProduct = ({ product, categories, productCategory }: any) => {
 
   function handleSubmit(e: any) {
     e.preventDefault();
-    router.post(`/products/${product.id}`, {
+    router.post(`/admin/products/${product.id}`, {
       _method: 'put',
       brand: data.brand,
       title: data.title,

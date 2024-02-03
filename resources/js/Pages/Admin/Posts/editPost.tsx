@@ -66,7 +66,7 @@ const editPost = ({ post, categories, postCategory }: any) => {
 
   function handleSubmit(e: any) {
     e.preventDefault();
-    router.post(`/posts/${post.id}`, {
+    router.post(`/admin/posts/${post.id}`, {
       _method: 'put',
       title: data.title,
       summary: data.summary,
